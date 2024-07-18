@@ -6,9 +6,9 @@
 - Download Repository As .zip File
 - Extract .zip File Place It Where You Want It To Be.
   
-   ```bash
+  ```bash
     Example: C:\646973636F766572797061726B
-   ```
+  ```
     
 ---
 
@@ -24,4 +24,12 @@
 
 - Type Some Test Strings Into Google For Example
 - Check The Text File To See Updates
-- Congrats.
+
+---
+
+# Sidenote
+
+- Do not use this for Malicious Intent. This was made for a project since I am a Cybersecurity Student.
+- This is meant to better understand how attackers do the things they do, do not emulate this into a workplace environment.
+- I am not liable for any harm done by using this program.
+- Use at your own risk.
