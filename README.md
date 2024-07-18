@@ -6,9 +6,9 @@
 - Download Repository As .zip File
 - Extract .zip File Place It Where You Want It To Be.
   
-  ```bash
-    Example: C:\646973636F766572797061726B
-  ```
+```bash
+Example: C:\646973636F766572797061726B
+```
     
 ---
 
